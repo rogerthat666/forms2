@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <title> Music Production </title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="banner">
+              <h1> RogerThat Music Production</h1>
+            </div>
+          </header>
+          <nav id="nav">
+            <ul class="navbar">
+              
+                <li><a href="index.html">HOME</a> |</li>
+                <li><a href="recording.html">RECORDING</a> |</li>
+                <li><a href="mixing.html">MIXING</a> |</li>
+                <li><a href="mastering.html">MASTERING</a> |</li>
+                <li><a href="about.html">ABOUT</a> |</li>
+                <li><a href="contact.html">CONTACT</a> |</li>
+            </ul>
+          </nav>
+
+        <main>
+            <section>
+            <h2>Contact</h2>
+            
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <br>
+                <input type="text" name="name" /></label><br>
+              </p><p>
+                <label>Your Email:<br>
+                <input type="email" name="email" /></label><br>
+                </p><p>
+                <label>Your Telephone Number: <br>
+                <input type="text" name="tel" /></label><br>
+                </p><p>
+                <label>Your Age: <br>
+                <input type="number" name="age" /></label><br>
+                </p><p>
+                <label>Your Date of Birth: <br>
+                <input type="date" name="birth" /></label><br>
+                </p><p>
+                <label>Your Gender: </label><br>
+                <input type="radio"  id="male" value="male" name="gender" /><label for="male">Male</label><br>
+                <input type="radio" id="female" value="female" name="gender" /><label for="female">Female</label><br>
+                </p><p>
+                <label>Your Apron Color:</label> <br>
+                  <label for="favcolor">Select your favorite apron color:</label>
+                  <input type="color" id="favcolor" name="favcolor"><br>
+                </p><p>             
+                <label>Your Favorite Cuisine:</label> <br>
+                  <input type="checkbox"  name="fav kitchen" value="french">
+                  <label for="french"> French</label><br>
+                  <input type="checkbox"  name="fav kitchen" value="italian">
+                  <label for="italian"> Italian</label><br>
+                  <input type="checkbox"  name="fav kitchen" value="spanish">
+                  <label for="spanish"> Spanish</label><br>
+                  <input type="checkbox"  name="fav kitchen" value="arab">
+                  <label for="arabic"> Arabic</label><br>
+                </p><p>
+                <label>Your Bio:</label> <br>
+                <textarea name="bio" rows="10" cols="30"></textarea><br>
+                </p><p>
+                <label>Upload your last Recipe: <br>
+                <input type="file" name="recipe" /></label><br>
+                </p><p>
+                <label>URL to your Recipe Website:<br>
+                <input type="url" name="url" /></label><br>
+                </p><p>
+            
+            
+              <button type="submit">Send</button>
+              <button type="reset">Reset</button>
+              </p>
+            </form> 
+            
+            
+            <p>
+
+                <a href="index.html">back to main</a>
+             </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p class="footer">&copy; 2021 rogerthat.eu</p>
+        </footer>
+    </div>
+</body>
+
+</html>
